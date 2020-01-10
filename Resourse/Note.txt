@@ -1,0 +1,5 @@
+.To create Framework,
+First,create a Base Class containing Before and After methods
+Second,create a class to fetch data from properties file.
+Third,create different classes for objects page-wise under a Package.
+Fourth,create a test script which will extend the Base Class and whose class config is present in testng.xml file.

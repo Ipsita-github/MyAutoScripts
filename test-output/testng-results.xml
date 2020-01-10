@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8813" started-at="2020-01-10T07:42:22Z" finished-at="2020-01-10T07:42:31Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8813" started-at="2020-01-10T07:42:22Z" finished-at="2020-01-10T07:42:31Z">
+      <class name="Com.E2M.Responsive.Responsive_Event2MobileTest">
+        <test-method status="PASS" signature="configBc()[pri:0, instance:Com.E2M.Responsive.Responsive_Event2MobileTest@28f67ac7]" name="configBc" is-config="true" duration-ms="5284" started-at="2020-01-10T13:12:22Z" finished-at="2020-01-10T13:12:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBc -->
+        <test-method status="FAIL" signature="loginCheck()[pri:0, instance:Com.E2M.Responsive.Responsive_Event2MobileTest@28f67ac7]" name="loginCheck" is-config="true" duration-ms="0" started-at="2020-01-10T13:12:28Z" finished-at="2020-01-10T13:12:28Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WSSYS024', ip: '172.22.0.54', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\IPSITA~1.HAZ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:56226}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bdbd76f7cb7ee8a053715e8798bccb55
+*** Element info: {Using=xpath, value=//input[@id='txtUsername']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WSSYS024', ip: '172.22.0.54', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: C:\Users\IPSITA~1.HAZ\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:56226}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bdbd76f7cb7ee8a053715e8798bccb55
+*** Element info: {Using=xpath, value=//input[@id='txtUsername']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+	at Com.E2M.ObjectRepository.LoginPage.EnterUsername(LoginPage.java:30)
+	at Com.E2M.GenericLibraries.Baseclass_libraries.loginCheck(Baseclass_libraries.java:70)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:207)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:178)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCheck -->
+        <test-method status="SKIP" signature="LogoutAfterImmediateLogin()[pri:0, instance:Com.E2M.Responsive.Responsive_Event2MobileTest@28f67ac7]" name="LogoutAfterImmediateLogin" duration-ms="1" started-at="2020-01-10T13:12:31Z" finished-at="2020-01-10T13:12:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutAfterImmediateLogin -->
+        <test-method status="SKIP" signature="loginCheck()[pri:0, instance:Com.E2M.Responsive.Responsive_Event2MobileTest@28f67ac7]" name="loginCheck" is-config="true" duration-ms="0" started-at="2020-01-10T13:12:31Z" finished-at="2020-01-10T13:12:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCheck -->
+        <test-method status="SKIP" signature="PostLogin_linkTest()[pri:0, instance:Com.E2M.Responsive.Responsive_Event2MobileTest@28f67ac7]" name="PostLogin_linkTest" duration-ms="1" started-at="2020-01-10T13:12:31Z" finished-at="2020-01-10T13:12:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostLogin_linkTest -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:Com.E2M.Responsive.Responsive_Event2MobileTest@28f67ac7]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2020-01-10T13:12:31Z" finished-at="2020-01-10T13:12:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Com.E2M.Responsive.Responsive_Event2MobileTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
